@@ -1,4 +1,4 @@
-- hosts: webservers
+- hosts: all
   tasks:
   - debug: msg="http_port {{ http_port }}"
   - debug: msg="time_zone {{ time_zone }}"
