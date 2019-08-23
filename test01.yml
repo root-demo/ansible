@@ -6,5 +6,5 @@
   - debug: msg="http_port {{ http_port }}"
   - debug: msg="time_zone {{ time_zone }}"
 
-  - name: exe shell
-    command: cat /etc/redhat-release
+    - name: exe shell
+      command: cat /etc/redhat-release
