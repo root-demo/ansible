@@ -1,4 +1,7 @@
 - hosts: all
+  vars:
+    http_port: 80
+    time_zone: Tokyo/Asia  
   tasks:
   - debug: msg="http_port {{ http_port }}"
   - debug: msg="time_zone {{ time_zone }}"
