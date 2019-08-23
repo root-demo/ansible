@@ -7,5 +7,5 @@
   - debug: msg="time_zone {{ time_zone }}"
   - name: exec shell
     command: cat /etc/redhat-release
-  - debug:
-    var: facts    
+  - debug:    
+    var: facts
