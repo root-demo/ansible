@@ -1,6 +1,5 @@
 - hosts: all
 #  sudo: yes
-  ansible_become: True
   vars:
     http_port: 80
     time_zone: Tokyo/Asia  
