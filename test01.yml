@@ -12,4 +12,4 @@
   - name: yumでApacheインストール
     yum:
       name=httpd
-      state=present
+      state=latest
